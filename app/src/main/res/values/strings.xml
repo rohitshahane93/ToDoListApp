@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="test">\u2022 asdas sd sds fsfasfa fssfasfasf fsfasf sfgff gdfg dasd\n\u2022 asdasdasd\n\u2022 asdasdasd\n\u2022 asdasdasd\n</string>
+    <string name="bullet">\u2022</string>
+</resources>

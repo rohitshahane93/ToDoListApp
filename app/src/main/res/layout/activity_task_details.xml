@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.TaskDetailsActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unnamed List"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/activity_task_details_btn_add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorAccent"
+        android:text="+"
+        android:textSize="30sp"
+        android:textColor="#FFF"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/newTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="add new task"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/activity_task_details_btn_add"
+        android:layout_margin="10dp"/>
+
+    <ListView
+        android:id="@+id/activity_task_details_LV_todos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_above="@+id/newTask"
+        android:layout_margin="10dp">
+    </ListView>
+
+</RelativeLayout>
